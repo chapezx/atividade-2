@@ -1,0 +1,35 @@
+/* styles.css - estilo mínimo, só para a página ficar legível */
+
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+  color: #222;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.botoes-login {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.botoes-login a {
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #f5f5f5;
+  cursor: pointer;
+}

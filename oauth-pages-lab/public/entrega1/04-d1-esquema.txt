@@ -1,0 +1,9 @@
+Resultado da consulta executada no console D1:
+
+SELECT name, type
+FROM sqlite_schema
+WHERE name NOT LIKE 'sqlite_%'
+ORDER BY type, name;
+
+(Cole aqui o nome e o tipo de cada linha devolvida: as duas tabelas
+oauth_transactions e sessions, e os dois índices de expiração.)
